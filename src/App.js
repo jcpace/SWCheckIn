@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import logo from "../public/swlogo.png";
 import "./App.css";
 
 class App extends Component {
@@ -7,7 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>SW Airlines Auto Check-In</h2>
+          <img src={logo} className="swlogo"></img>
+          <h2>Automatic Check-In</h2>
         </div>
         <div className="start-form">
           <form>
